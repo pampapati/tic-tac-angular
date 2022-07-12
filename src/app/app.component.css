@@ -6,7 +6,7 @@ p {
 }
 .cell {
   border: 1px solid grey;
-  padding: 15px;
+  padding: 1.5rem;
   margin: 5px;
 }
 

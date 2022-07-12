@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+.game-container {
+  display: flex;
+}
+.cell {
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 5px;
+}
+
+.row {
+  display: flex;
+}

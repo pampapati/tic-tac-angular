@@ -1,0 +1,14 @@
+<hello name="{{ name }}"></hello>
+<div class="game-container">
+  <section>
+    <div *ngFor="let row of gameBoard; let i = index" class="row">
+      <span
+        *ngFor="let cell of row; let j = index"
+        class="cell"
+        onclick="userChoice(i,j)"
+      >
+        {{ gameBoard[i][j] }}
+      </span>
+    </div>
+  </section>
+</div>
